@@ -1,49 +1,49 @@
 {
-  "name": "snowplow-tracker",
-  "version": "2.10.2",
-  "dependencies": {
-    "snowplow-tracker-core": "0.7.0",
-    "browser-cookie-lite": "0.3.1",
-    "jstimezonedetect": "1.0.5",
-    "murmurhash": "0.0.2",
-    "sha1": "git://github.com/pvorb/node-sha1.git#910081c83f3661507d9d89e66e3f38d8b59d5559",
-    "uuid": "2.0.3"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "JSON": "1.0.0",
-    "grunt": "^1.0.3",
-    "grunt-aws": "0.6.2",
-    "grunt-babel": "^8.0.0",
-    "lodash": "^4.17.11",
-    "grunt-browserify": "^5.3.0",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-uglify": "^4.0.0",
-    "intern": "3.3.2",
-    "js-base64": "^2.4.9",
-    "semver": "4.3.2"
-  },
-  "contributors": [
-    "Alex Dean",
-    "Simon Andersson",
-    "Anthon Pang",
-    "Fred Blundun",
-    "Joshua Beemster",
-    "Michael Hadam"
-  ],
-  "description": "JavaScript tracker for Snowplow",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/snowplow/snowplow-javascript-tracker.git"
-  },
-  "bugs": "https://github.com/snowplow/snowplow-javascript-tracker/issues",
-  "keywords": [
-    "tracking",
-    "web analytics",
-    "events",
-    "open source"
-  ],
-  "license": "Simplified BSD",
-  "private": true
+	"name": "snowplow-tracker",
+	"version": "2.10.2",
+	"dependencies": {
+		"snowplow-tracker-core": "0.7.0",
+		"browser-cookie-lite": "0.3.1",
+		"jstimezonedetect": "1.0.5",
+		"murmurhash": "0.0.2",
+		"sha1": "git://github.com/pvorb/node-sha1.git#910081c83f3661507d9d89e66e3f38d8b59d5559",
+		"uuid": "2.0.3",
+		"lodash": "^4.17.11",
+		"JSON": "1.0.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.1.2",
+		"@babel/preset-env": "^7.1.0",
+		"grunt": "^1.0.3",
+		"grunt-aws": "0.6.2",
+		"grunt-babel": "^8.0.0",
+		"grunt-browserify": "^5.3.0",
+		"grunt-contrib-concat": "^1.0.1",
+		"grunt-contrib-uglify": "^4.0.0",
+		"intern": "3.3.2",
+		"js-base64": "^2.4.9",
+		"semver": "4.3.2"
+	},
+	"contributors": [
+		"Alex Dean",
+		"Simon Andersson",
+		"Anthon Pang",
+		"Fred Blundun",
+		"Joshua Beemster",
+		"Michael Hadam"
+	],
+	"description": "JavaScript tracker for Snowplow",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/snowplow/snowplow-javascript-tracker.git"
+	},
+	"bugs": "https://github.com/snowplow/snowplow-javascript-tracker/issues",
+	"keywords": [
+		"tracking",
+		"web analytics",
+		"events",
+		"open source"
+	],
+	"license": "Simplified BSD",
+	"private": true
 }
